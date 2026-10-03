@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cyberpunk spider bubble, idle state: cyan-blue glow (@color/accent). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- outer glow ring, marks the touch bounds -->
+    <path
+        android:pathData="M61,32 A29,29 0 1 1 3,32 A29,29 0 1 1 61,32 Z"
+        android:fillColor="#00000000"
+        android:strokeColor="@color/accent"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.6" />
+
+    <!-- legs: thin dark core, stretched out to the button edge -->
+    <path
+        android:pathData="M24,25 L14,14 L2,2
+                           M24,29 L9,25 L0,21
+                           M24,33 L9,41 L0,47
+                           M24,37 L15,51 L3,63
+                           M40,25 L50,14 L62,2
+                           M40,29 L55,25 L64,21
+                           M40,33 L55,41 L64,47
+                           M40,37 L49,51 L61,63"
+        android:fillColor="#00000000"
+        android:strokeColor="@color/spider_body"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- legs: thin neon vein on top, same geometry -->
+    <path
+        android:pathData="M24,25 L14,14 L2,2
+                           M24,29 L9,25 L0,21
+                           M24,33 L9,41 L0,47
+                           M24,37 L15,51 L3,63
+                           M40,25 L50,14 L62,2
+                           M40,29 L55,25 L64,21
+                           M40,33 L55,41 L64,47
+                           M40,37 L49,51 L61,63"
+        android:fillColor="#00000000"
+        android:strokeColor="@color/accent"
+        android:strokeWidth="0.9"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeAlpha="0.95" />
+
+    <!-- knee joints: tiny mechanical pivots -->
+    <path
+        android:pathData="M15.4,14 A1.4,1.4 0 1 1 12.6,14 A1.4,1.4 0 1 1 15.4,14 Z
+                           M10.4,25 A1.4,1.4 0 1 1 7.6,25 A1.4,1.4 0 1 1 10.4,25 Z
+                           M10.4,41 A1.4,1.4 0 1 1 7.6,41 A1.4,1.4 0 1 1 10.4,41 Z
+                           M16.4,51 A1.4,1.4 0 1 1 13.6,51 A1.4,1.4 0 1 1 16.4,51 Z
+                           M51.4,14 A1.4,1.4 0 1 1 48.6,14 A1.4,1.4 0 1 1 51.4,14 Z
+                           M56.4,25 A1.4,1.4 0 1 1 53.6,25 A1.4,1.4 0 1 1 56.4,25 Z
+                           M56.4,41 A1.4,1.4 0 1 1 53.6,41 A1.4,1.4 0 1 1 56.4,41 Z
+                           M50.4,51 A1.4,1.4 0 1 1 47.6,51 A1.4,1.4 0 1 1 50.4,51 Z"
+        android:fillColor="@color/spider_trim"
+        android:strokeColor="@color/accent"
+        android:strokeWidth="0.4"
+        android:strokeAlpha="0.8" />
+
+    <!-- abdomen armor plate -->
+    <path
+        android:pathData="M22,30 L28,24 L36,24 L42,30 L40,42 L32,47 L24,42 Z"
+        android:fillColor="@color/spider_body"
+        android:strokeColor="@color/spider_trim"
+        android:strokeWidth="1" />
+
+    <!-- cephalothorax plate -->
+    <path
+        android:pathData="M26,22 L30,17 L34,17 L38,22 L34,26 L30,26 Z"
+        android:fillColor="@color/spider_body"
+        android:strokeColor="@color/accent"
+        android:strokeWidth="0.8"
+        android:strokeAlpha="0.8" />
+
+    <!-- abdomen circuit lines -->
+    <path
+        android:pathData="M32,26 L32,45
+                           M26,32 L38,32
+                           M28,38 L36,38"
+        android:fillColor="#00000000"
+        android:strokeColor="@color/accent"
+        android:strokeWidth="1.1"
+        android:strokeAlpha="0.85"
+        android:strokeLineCap="round" />
+
+    <!-- fangs -->
+    <path
+        android:pathData="M30,26 L29,29 M34,26 L35,29"
+        android:fillColor="#00000000"
+        android:strokeColor="@color/accent"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.8" />
+
+    <!-- glowing eye cluster -->
+    <path
+        android:pathData="M33.8,20 A1.8,1.8 0 1 1 30.2,20 A1.8,1.8 0 1 1 33.8,20 Z
+                           M29.3,20.5 A1.3,1.3 0 1 1 26.7,20.5 A1.3,1.3 0 1 1 29.3,20.5 Z
+                           M37.3,20.5 A1.3,1.3 0 1 1 34.7,20.5 A1.3,1.3 0 1 1 37.3,20.5 Z
+                           M31,23.5 A1,1 0 1 1 29,23.5 A1,1 0 1 1 31,23.5 Z
+                           M35,23.5 A1,1 0 1 1 33,23.5 A1,1 0 1 1 35,23.5 Z"
+        android:fillColor="@color/accent" />
+</vector>
